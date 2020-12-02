@@ -1,3 +1,6 @@
-.title {
+.second, .next, .one, .two, .three, .four, .five  {
   font-family: 'Roboto', sans-serif;
+}
+.first, .name {
+	font-family: 'PT Serif', serif;
 }
