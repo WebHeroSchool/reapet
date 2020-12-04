@@ -7,14 +7,12 @@
 }
 .header__menu {
 }
-.header__item {
+.menu__item {
 	font-family: 'Roboto', sans-serif;
 }
-.header__item_active {
+.menu__item_active {
 }
 .main-section {
-}
-.main-content {
 }
 .main-content__banner {
 	font-family: 'PT Serif', serif;
