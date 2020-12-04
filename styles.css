@@ -1,0 +1,31 @@
+.header {
+}
+.header__logo {
+}
+.header__name {
+	font-family: 'PT Serif', serif;
+}
+.header__menu {
+}
+.menu__item {
+	font-family: 'Roboto', sans-serif;
+}
+.menu__item_active {
+}
+.main-section {
+}
+.main-content__banner {
+	font-family: 'PT Serif', serif;
+}
+.main-content__sibtitle {
+	font-family: 'Roboto', sans-serif;
+}
+.main-content__button {
+	font-family: 'Roboto', sans-serif;
+}
+.image-content {
+}
+.image-content__images {
+  font-family: 'Roboto', sans-serif;
+}
+ 
