@@ -1,15 +1,29 @@
+.wrapper {
+	margin:auto;
+	width:80%;
+}
 .header {
+	display:flex;
+	justify-content:space-between;
 }
-.header__logo {
-}
-.header__name {
+.header__logo,.header__menu {
 	font-family: 'PT Serif', serif;
 }
-.header__menu {
+.header__logo {
+		padding: 40px 0;		
+}
+.header__menu{
+	display:flex;
+	align-items:center; 
 }
 .menu__item {
 	font-family: 'Roboto', sans-serif;
+	padding:0 13px;
 }
+.menu__item:last-child {
+    padding:0;
+}
+
 .menu__item_active {
 }
 .main-section {
@@ -28,4 +42,3 @@
 .image-content__images {
   font-family: 'Roboto', sans-serif;
 }
- 
