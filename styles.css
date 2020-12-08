@@ -3,19 +3,42 @@
 	width:80%;
 }
 .header {
+	padding:40px 0;
 	display:flex;
 	justify-content:space-between;
 }
-.header__logo,.header__menu {
-	font-family: 'PT Serif', serif;
+.logo {
+	position:relative;
+    padding:40px 0;
+	padding-left:49px;
+	font:bold 24px/31px pt_serif,arial,helvetica, sans-serif; 
+	width:190px;
+	height:35px;
 }
-.header__logo {
-		padding: 40px 0;		
+.logo__circle {
+	position: absolute;
+	top: 50%;
+	left:0 ;
+	transform:translateY(-50%); 
+ 	width: 28px;
+ 	height: 28px;
+    background: #0056EC;
+    border-radius:50%;
+    opacity:.7;
+     }
+ .logo__circle_color_blue {
+    left:8%;
+    top:56%;
+    background: #C8DBFB;
+ }
+
+.header__menu {
+	font-family: 'PT Serif', serif;	
 }
 .header__menu{
 	display:flex;
 	align-items:center; 
-}
+	}
 .menu__item {
 	font-family: 'Roboto', sans-serif;
 	padding:0 13px;
