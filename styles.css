@@ -31,7 +31,6 @@
     top:56%;
     background: #C8DBFB;
  }
-
 .header__menu {
 	font-family: 'PT Serif', serif;	
 }
@@ -46,7 +45,6 @@
 .menu__item:last-child {
     padding:0;
 }
-
 .menu__item_active {
 }
 .main-section {
