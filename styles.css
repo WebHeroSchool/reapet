@@ -1,13 +1,13 @@
-.wrapper  {
+.wrapper {
 	margin:auto;
 	width:80%;
 }
-.header  {
+.header {
 	padding:40px 0;
 	display:flex;
 	justify-content:space-between;
 }
-.logo  {
+.logo {
 	position:relative;
     padding:40px 0;
 	padding-left:49px;
@@ -15,7 +15,7 @@
 	width:190px;
 	height:35px;
 }
-.logo__circle  {
+.logo__circle {
 	position: absolute;
 	top: 50%;
 	left:0 ;
@@ -26,36 +26,36 @@
     border-radius:50%;
     opacity:.7;
 }
- .logo__circle_color_blue  {
+ .logo__circle_color_blue {
     left:8%;
     top:56%;
     background: #C8DBFB;
 }
-.header__menu  {
+.header__menu {
 	font-family: 'PT Serif', serif;	
 }
-.header__menu  {
+.header__menu {
 	display:flex;
 	align-items:center; 
 }
-.menu__item  {
+.menu__item {
 	font-family: 'Roboto', sans-serif;
 	padding:0 13px;
 }
-.menu__item:last-child  {
+.menu__item:last-child {
     padding:0;
 }
-.main-content__banner  {
+.main-content__banner {
 	font-family: 'PT Serif', serif;
 }
-.main-content__sibtitle  {
+.main-content__sibtitle {
 	font-family: 'Roboto', sans-serif;
 }
-.main-content__button  {
+.main-content__button {
 	font-family: 'Roboto', sans-serif;
 }
 
-.image-content__images  {
+.image-content__images {
   font-family: 'Roboto', sans-serif;
 }
 
