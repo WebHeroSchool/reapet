@@ -12,7 +12,7 @@
 .logo {
   position: relative;
   padding: 40px 0 40px 49px;	
-  font: bold 24px/31px 'pt_serifregular', Arial, Helvetica, 'sans-serif';
+  font: bold 24px/31px 'pt_serifregular', arial, helvetica, 'sans-serif';
   width: 190px;
   height: 35px;
 }
@@ -21,8 +21,7 @@
   position: absolute;
   top: 50%;
   left: 0 ;
-  
-  transform: translateY(-50%); 
+  transform:translateY(-50%); 
   width: 28px;
   height: 28px;
   background: #0056ec;
@@ -33,7 +32,7 @@
 .logo__circle_color_blue {
   left: 8%;
   top: 56%;
-  background: #c8dbfb
+  background: #c8dbfb;
 }
 
 .header__menu {
@@ -47,7 +46,7 @@
   padding: 0 13px;
 }
 
-.menu__item: last-child {
+.menu__item:last-child {
   padding: 0;
 }
 
