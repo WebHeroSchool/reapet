@@ -5,14 +5,12 @@
   font-style: normal;
 } 
 
-
 @font-face {
   font-family: 'pt_serifbold';
   src: url('fonts/ptserif-bold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 } 
-
 
 @font-face {
   font-family: 'pt_serifbold_italic';
@@ -26,5 +24,9 @@
   font-family: 'pt_serifitalic';
   src: url('fonts/ptserif-italic-webfont.woff') format('woff');
   font-weight: normal;
+<<<<<<< HEAD
   font-style: normal;
 }
+=======
+  font-style: normal; }
+>>>>>>> 8a79332a76410844b52e38bbba7d74e2a1c7d9dc
