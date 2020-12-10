@@ -1,18 +1,19 @@
 .wrapper {
-	margin: auto;
+    margin: auto;
 	width: 80%;
 }
-
+ 
 .header {
-	padding: 40px 0;
+    padding: 40px 0;
 	display: flex;
-	justify-content:space-between;
+	justify-content: space-between;
 }
 
 .logo {
 	position: relative;
     padding: 40px 0;
 	padding-left: 49px;
+	
 	font: bold 24px/31px 'pt_serifregular', arial, helvetica, 'sans-serif';
 	width: 190px;
 	height: 35px;
@@ -22,9 +23,11 @@
 	position: absolute;
 	top: 50%;
 	left: 0 ;
+	
 	transform: translateY(-50%); 
  	width: 28px;
  	height: 28px;
+    
     background: #0056EC;
     border-radius: 50%;
     opacity: .7;
@@ -37,7 +40,7 @@
 }
 
 .header__menu {
-	font-family:  'PT Serif', serif;	
+	font-family: 'PT Serif', serif;	
 }
 
 .header__menu {
@@ -46,7 +49,7 @@
 }
 
 .menu__item {
-	font-family:  'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	padding: 0 13px;
 }
 
@@ -55,18 +58,18 @@
 }
 
 .main-content__banner {
-	font-family:  'PT Serif', serif;
+	font-family: 'PT Serif', serif;
 }
 
 .main-content__sibtitle {
-	font-family:  'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 .main-content__button {
-	font-family:  'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 } 
 
 .image-content__images {
-  font-family:  'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
