@@ -37,7 +37,7 @@
 }
 
 .header__menu {
-	font-family: 'PT Serif', serif;	
+	font-family:  'PT Serif', serif;	
 }
 
 .header__menu {
@@ -46,7 +46,7 @@
 }
 
 .menu__item {
-	font-family: 'Roboto', sans-serif;
+	font-family:  'Roboto', sans-serif;
 	padding: 0 13px;
 }
 
@@ -55,18 +55,18 @@
 }
 
 .main-content__banner {
-	font-family: 'PT Serif', serif;
+	font-family:  'PT Serif', serif;
 }
 
 .main-content__sibtitle {
-	font-family: 'Roboto', sans-serif;
+	font-family:  'Roboto', sans-serif;
 }
 
 .main-content__button {
-	font-family: 'Roboto', sans-serif;
+	font-family:  'Roboto', sans-serif;
 } 
 
 .image-content__images {
-  font-family: 'Roboto', sans-serif;
+  font-family:  'Roboto', sans-serif;
 }
 
