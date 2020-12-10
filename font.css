@@ -1,55 +1,27 @@
 @font-face {
-<<<<<<< HEAD
-    font-family: 'pt_serifregular';
-    src: url('ptserif-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'pt_serifbold';
-    src: url('ptserif-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}@font-face {
-    font-family: 'pt_serifbold_italic';
-    src: url('ptserif-bolditalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}@font-face {
-    font-family: 'pt_serifitalic';
-    src: url('ptserif-italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-=======
   font-family: 'pt_serifregular';
   src: url('fonts/ptserif-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
- } 
+} 
 
 @font-face {
   font-family: 'pt_serifbold';
   src: url('fonts/ptserif-bold-webfont.woff') format('woff');
   font-weight: normal;
-  font-style: normal;
- } 
+  font-style: normal; 
+} 
 
 @font-face {
   font-family: 'pt_serifbold_italic';
   src: url('fonts/ptserif-bolditalic-webfont.woff') format('woff');
   font-weight: normal;
-  font-style: normal;
- }
+  font-style: normal; 
+}
 
- @font-face {
+@font-face {
   font-family: 'pt_serifitalic';
   src: url('fonts/ptserif-italic-webfont.woff') format('woff');
   font-weight: normal;
-  font-style: normal;
- }
->>>>>>> new-side
+  font-style: normal; 
+}
