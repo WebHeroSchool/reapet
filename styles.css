@@ -11,8 +11,7 @@
 
 .logo {
   position: relative;
-  padding: 40px 0;
-  padding-left: 49px;	
+  padding: 40px 0 40px 49px;	
   font: bold 24px/31px 'pt_serifregular', Arial, Helvetica, 'sans-serif';
   width: 190px;
   height: 35px;
@@ -22,28 +21,25 @@
   position: absolute;
   top: 50%;
   left: 0 ;
+  
   transform: translateY(-50%); 
   width: 28px;
   height: 28px;
-    
-  background: #0056EC;
+  background: #0056ec;
   border-radius: 50%;
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .logo__circle_color_blue {
   left: 8%;
   top: 56%;
-  background: #C8DBFB;
-}
-
-.header__menu {
-  font-family: 'PT Serif', serif;	
+  background: #c8dbfb
 }
 
 .header__menu {
   display: flex;
   align-items: center; 
+  font-family: 'PT Serif', serif;	
 }
 
 .menu__item {
