@@ -11,8 +11,9 @@
 
 .logo {
   position: relative;
-  padding: 40px 0 40px 49px;	
-  font: bold 24px/31px 'pt_serifregular', arial, helvetica, 'sans-serif';
+  padding: 40px 0 40px 49px;
+
+  font: bold 24px/31px 'pt_serifregular', arial, helvetica, sans-serif;
   width: 190px;
   height: 35px;
 }
@@ -37,7 +38,7 @@
 
 .header__menu {
   display: flex;
-  align-items: center; 
+  align-items:center; 
   font-family: 'PT Serif', serif;	
 }
 
