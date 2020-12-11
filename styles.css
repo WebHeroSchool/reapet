@@ -122,11 +122,11 @@
 
 .main__button:hover {
   opacity: 0.15s;
-  background: #52d2bc; 
+  background: #52d2bc;
 }
 
-.main__button:before {
+.main__button::before {
   content: "";
   background: #0056ec;
-  transition: 0.8s; 
+  transition: 0.8s;
 }
