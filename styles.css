@@ -7,6 +7,7 @@
   padding: 40px 0;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .logo {
@@ -35,7 +36,7 @@
   background: #c8dbfb;
 }
 
-.header__menu {
+.menu {
   display: flex;
   align-items: center; 
   font-family: 'PT Serif', serif;	
@@ -88,19 +89,39 @@
   width: 100%;
 }
 
-.main-content__banner {
-  font-family: 'PT Serif', serif;
+.main {
+  padding: 0 63% 100px 0;
+  background: top right no-repeat url(img/Frame.svg);
 }
 
-.main-content__sibtitle {
-  font-family: 'Roboto', sans-serif;
+.main__banner {
+  margin: 0 0 40px 0;
+  font: bold 50px/66px 'PT Serif', arial, helvetica, serif;
 }
 
-.main-content__button {
-  font-family: 'Roboto', sans-serif;
-} 
-
-.image-content__images {
-  font-family: 'Roboto', sans-serif;
+.main__sibtitle {
+  margin: 0 0 41px 0;
+  margin-bottom: 41px;
+ font: 18px/21px 'robotomedium', arial, helvetica, sans-serif;
 }
+
+.main__baner-text_light {
+  background: #ecf3ff;
+}
+
+.main__button {
+  display: inline-block;
+  font: 14px/16px 'robotomedium', arial, helvetica, sans-serif;
+  color: #fff;
+  background: #0056ec;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: opacity 0.5s;
+}
+
+.main__button:hover {
+  opacity: 0.5s;
+}
+
 
