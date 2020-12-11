@@ -9,19 +9,40 @@
   font-family: 'pt_serifbold';
   src: url('fonts/ptserif-bold-webfont.woff') format('woff');
   font-weight: normal;
-  font-style: normal; 
+  font-style: normal;
 } 
 
 @font-face {
   font-family: 'pt_serifbold_italic';
   src: url('fonts/ptserif-bolditalic-webfont.woff') format('woff');
   font-weight: normal;
-  font-style: normal; 
+  font-style: normal;
 }
 
 @font-face {
   font-family: 'pt_serifitalic';
   src: url('fonts/ptserif-italic-webfont.woff') format('woff');
   font-weight: normal;
-  font-style: normal; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotoregular';
+  src: url('fonts/roboto-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotomedium';
+  src: url('fonts/roboto-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotobold';
+  src: url('fonts/roboto-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }

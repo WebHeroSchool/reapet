@@ -7,6 +7,7 @@
   padding: 40px 0;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .logo {
@@ -35,34 +36,97 @@
   background: #c8dbfb;
 }
 
-.header__menu {
+.menu {
   display: flex;
   align-items: center; 
   font-family: 'PT Serif', serif;	
 }
 
 .menu__item {
-  font-family: 'Roboto', sans-serif;
-  padding: 0 13px;
+  position: relative;
+  margin-right: 26px;
+  font: 500 18px/21px 'robotomedium', arial, helvetica, sans-serif;
+  color: #000;
+  text-decoration: none;
+  transition: opacity 0.1s;
+
 }
 
 .menu__item:last-child {
-  padding: 0;
+  margin-right: 0;
 }
 
-.main-content__banner {
-  font-family: 'PT Serif', serif;
-}
-
-.main-content__sibtitle {
-  font-family: 'Roboto', sans-serif;
-}
-
-.main-content__button {
-  font-family: 'Roboto', sans-serif;
+.menu__item_active::after {
+  position: absolute;
+  left: 0;
+  display: block;
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #0056ec;
+  opacity: 0;
+  transition: opacity 0.5s, width 0.5s;
 } 
 
-.image-content__images {
-  font-family: 'Roboto', sans-serif;
+.menu__item:hover {
+  opacity: 0.5;
 }
 
+.menu__item:hover::after {
+  position: absolute;
+  left: 0;
+  display: block;
+  transform: rotate(4deg);
+  content: "";
+  width: 100%;
+  height: 3px;
+  background: #0056ec;
+}
+
+.menu__item:hover::after,
+.menu__item_active::after {
+  opacity: 1;
+  width: 100%;
+}
+
+.main {
+  padding: 0 63% 100px 0;
+  background: top right no-repeat url(img/Frame.svg);
+}
+
+.main__banner {
+  margin: 0 0 40px 0;
+  font: bold 50px/66px 'PT Serif', arial, helvetica, serif;
+}
+
+.main__sibtitle {
+  margin: 0 0 41px 0;
+  margin-bottom: 41px;
+  font: 18px/21px 'robotomedium', arial, helvetica, sans-serif;
+}
+
+.main__baner-text_light {
+  background: #ecf3ff;
+}
+
+.main__button {
+  display: inline-block;
+  font: 14px/16px 'robotomedium', arial, helvetica, sans-serif;
+  color: #fff;
+  background: #0056ec;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: opacity 0.15s;
+}
+
+.main__button:hover {
+  opacity: 0.15s;
+  background: #52d2bc;
+}
+
+.main__button::before {
+  content: "";
+  background: #0056ec;
+  transition: 0.8s;
+}
