@@ -187,24 +187,24 @@
 .main {
   position: absolute;
   text-align: center;
-  background-size: 53%;
+  background-size: 59%;
   background-position: right 47px bottom 36px ;
   margin-top: 137px;
  }
 
 .main__banner {
- margin-bottom: 0px;
+ margin-bottom: 36px;
  //margin-top: 35px;
  font: bold 30px/39px 'PT Serif', arial, helvetica, serif;
 }
 
 .main__sibtitle {
- margin-bottom: 25px;
+ margin-bottom: 41px;
  font: 500 16px/19px 'robotomedium', arial, helvetica, sans-serif;
 }
 
 .main__button {
- margin-bottom: 23px;
+ margin-bottom: 40px;
  font: 500 14px/16px 'robotomedium', arial, helvetica, sans-serif;
  }
 }
