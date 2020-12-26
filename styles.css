@@ -222,19 +222,22 @@ body {
  }
 
  .logo {
-    padding: 8px;
+   position: relative;
+   padding: 8px;
   }
+
  .logo__circle {
-  //position: absolute;
-  top: 46%;
-  left: 0 ;
-  transform:translateY(-60%); 
-  width: 17px;
-  height: 17px;
-  background: #0056ec;
-  border-radius: 50%;
-  opacity: 0.7;
-}
+   position: absolute;
+   top: 46%;
+   left: 0;
+   transform:translateY(-60%); 
+   width: 17px;
+   height: 17px;
+   background: #0056ec;
+   border-radius: 50%;
+   opacity: 0.7;
+ } 
+
  .logo__circle_color_blue {
   left: 3%;
   top: 53%;
@@ -249,12 +252,13 @@ body {
  }
 
  .main__banner {
+  padding: 0 0 0 87px;
   margin-bottom: 44px;
-  font: bold 19px/29px 'PT Serif', arial, helvetica, serif;
-  text-align: left;
-  margin-top: 0px;
   text-align: center;
- }
+  font: bold 19px/29px 'PT Serif', arial, helvetica, serif;
+  margin-top: 0px;
+  width: 200px;
+}
 
  .main__sibtitle {
   margin-bottom: 25px;
