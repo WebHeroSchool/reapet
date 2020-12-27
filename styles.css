@@ -16,7 +16,7 @@ body {
 .logo {
   position: relative;
   padding: 40px 0 40px 60px;
-  font: 700 24px/31px 'pt_serifregular', arial, helvetica, sans-serif ;
+  font: 700 26px/31px 'pt_serifregular', arial, helvetica, sans-serif ;
   width: 190px;
   height: 32px;
   padding-left: 44px;
@@ -42,11 +42,12 @@ body {
 }
 
 .menu {
-  display: flex;
-  align-items: center; 
-  justify-content: space-around;
-  width: 27%;
-  font-family: 'PT Serif', serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 24.4%;
+    font-family: 'PT Serif', serif;
+    margin-right: 2%;
 }
 
 .menu__item {
@@ -120,7 +121,7 @@ body {
   font: 18px/21px 'robotomedium', arial, helvetica, sans-serif;
   color: #fff;
   background: #0056ec;
-  padding: 18px 29px;
+  padding: 18px 25px;
   text-decoration: none;
   border-radius: 4px;
   transition: opacity 0.15s;
@@ -137,7 +138,77 @@ body {
   transition: 0.8s;
 }
 
+@media screen and (max-width: 1548px) {
+ .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+    font-family: 'PT Serif', serif;
+    }
+  }
+
 @media screen and (max-width: 1367px) {
+ .wrapper {
+   margin-left: 218px;
+   margin-right: 190px; 
+ }
+
+ .header {
+   padding: 0px 0;
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 50px;
+ }
+
+ .logo__circle_color_blue {
+  left: 4%;
+  top: 57%;
+  background: #c8dbfb;
+}
+
+ .menu {
+    margin-top: 7px;
+    width: 35.5%;
+    font-family: 'PT Serif', serif;
+    margin-right: 1%;
+ }
+
+ .menu__item {
+   position: relative;
+   font:500 14px/16px 'robotomedium', arial, helvetica, sans-serif;
+   color: #000;
+   text-decoration: none;
+   transition: opacity 0.1s;}
+
+ .main {
+   padding: 0px 63% 85px 0;
+   background: right no-repeat url(img/Frame.svg);
+   background-size: 57%;
+   margin-bottom: 180px;
+ }
+
+ .main__banner {
+  margin-top: 98px;
+   margin-bottom: 39px;
+   font: bold 50px/66px 'PT Serif', arial, helvetica, serif;
+ }
+
+ .main__sibtitle {
+   margin-bottom: 43px;
+   font: 500 18px/21px 'robotomedium', arial, helvetica, sans-serif;
+   width: 367px;
+ }
+
+ .main__button {
+   margin-bottom: 23px;
+   font: 500 14px/16px 'robotomedium', arial, helvetica, sans-serif;
+   width: 174px;
+   padding: 14px 18px;
+  }
+}
+
+@media screen and (max-width: 1275px) {
  .wrapper {
    margin-left: 215px;
    margin-right: 190px; 
@@ -147,7 +218,7 @@ body {
    padding: 0px 0;
    display: flex;
    justify-content: space-between;
-   margin-bottom: 50px;
+   margin-bottom: 90px;
  }
 
  .logo__circle_color_blue {
@@ -196,19 +267,20 @@ body {
    width: 168px;
    padding: 14px 21px;
  }
-
-
 }
 
+@media screen and (max-width: 1156px) {
+ .wrapper {
+   margin-left: 215px;
+   margin-right: 190px; 
+ }
+}
 @media (max-width: 380px) {
  .menu, .name {
    display: none; 
  }
  .wrapper {
-  width:375px ;
-  height:667px ;
-   //margin-left: 13px;
-   //margin-right: 20px;
+   margin: 0;
    border: dashed red;
  }
 
