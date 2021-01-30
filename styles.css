@@ -392,7 +392,7 @@ body {
     z-index: 1;
     right: 28px;
  }
-}
+
 
  .menu__btn > span,
  .menu__btn > span::before,
@@ -461,8 +461,7 @@ body {
  #menu__toggle:checked ~ .menu__box {
     visibility: visible;
     left: 0;
- }
-
+  }
 
  .logo__circle {
     position: absolute;
@@ -619,6 +618,34 @@ body {
     margin-bottom: 0px
  }
 
+ .menu__btn {
+    display: block;
+    position: absolute;
+    top: 42px;
+    width: 26px;
+    height: 0px;
+    cursor: pointer;
+    z-index: 1;
+    right: 7px;
+ }
+
+ .menu__box {
+    width: 358px;
+    padding: 174px 0;
+ }
+
+ .menu__item:last-child {
+    margin-right: -13px;
+ }
+
+ .menu__item {
+    display: block;
+    padding: 22px 49px;
+    color: #333;
+    font-family: 'robotomedium', arial, helvetica, sans-serif;
+    font-size: 29px;
+ }
+
  .logo {
     padding: 22px 0px 0px 0px;
     margin-left: 6px;
@@ -655,7 +682,7 @@ body {
     margin-left: 63px;
     width: 71%;
  }
-}
+
  .main__button {
     font: 500 14px/17px 'robotomedium', arial, helvetica, sans-serif;
     width: 168px;
