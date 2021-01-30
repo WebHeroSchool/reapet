@@ -211,10 +211,10 @@ body {
   }
 
   .menu {
-    margin-top: 7px;
-    width: 35.5%;
+    margin-top: 9px;
+    width: 36%;
     font-family: 'PT Serif', serif;
-    margin-right: 1%;
+    margin-right: 2%;
   }
 
   .menu__item {
@@ -230,7 +230,7 @@ body {
     background: right no-repeat url(img/Frame.svg);
     background-size: 56%;
     background-position: 99% -75%;
-    margin-bottom: 180px;
+    margin-bottom: 83px;
   }
 
   .main__banner {
@@ -305,6 +305,13 @@ body {
     margin: 0;
   }
 
+  .menu {
+    margin-top: 9px;
+    width: 36%;
+    font-family: 'PT Serif', serif;
+    margin-right: 1%;
+  }
+
   .main__banner {
     margin-top: 98px;
     font: bold 50px/63px 'PT Serif', arial, helvetica, serif;
@@ -316,7 +323,7 @@ body {
     background: right no-repeat url(img/Frame.svg);
     background-size: 53%;
     background-position: 94% -20%;
-    margin-bottom: 180px;
+    margin-bottom: 0;
   }
 }
 
@@ -670,29 +677,31 @@ body {
   }
 
   .main {
-    padding: 74% 0;
+    padding: 10% 0;
     background-size: 80%;
     background-position: 61% 0%;
+    margin-bottom: 0;
   }
 
   .main__banner {
-    margin-bottom: 34px;
+    margin-bottom: 33px;
     font: bold 30px/39px 'PT Serif', arial, helvetica, serif;
     width: 249px;
     margin-left: 64px;
+    margin-top: 230px;
   }
 
   .main__sibtitle {
-    margin-bottom: 24px;
+    margin-bottom: 23px;
     font: 500 16px/19px 'robotomedium', arial, helvetica, sans-serif;
     margin-left: 63px;
     width: 71%;
   }
 
   .main__button {
-    font: 500 14px/17px 'robotomedium', arial, helvetica, sans-serif;
-    width: 168px;
-    margin-left: 12px;
+    font: 500 14px/18px 'robotomedium', arial, helvetica, sans-serif;
+    width: 182px;
+    margin-left: 8px;
   }
 }
 
