@@ -560,7 +560,7 @@ body {
 @media screen and (max-width: 495px) {
   .main__banner {
     margin: auto;
-    margin-top: 0px;
+    margin-top: 0;
     font: bold 37px/50px 'PT Serif', arial, helvetica, serif;
     margin-bottom: 45px;
     width: 299px;
@@ -593,7 +593,7 @@ body {
     font: bold 33px/45px 'PT Serif', arial, helvetica, serif;
     margin-bottom: 45px;
   }
-  
+
   .main__sibtitle {
     margin: auto;
     font: 500 17px/20px 'robotomedium', arial, helvetica, sans-serif;
