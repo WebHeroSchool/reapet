@@ -61,12 +61,12 @@ body {
 
  @keyframes goodmove {
   from {
-    color: red;
+    color: green;
     font-size: 87%; 
   }
   
   100% {
-     color: red;
+     color: green;
     font-size: 153%;
     
   }
