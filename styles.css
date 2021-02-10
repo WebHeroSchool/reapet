@@ -27,7 +27,7 @@ body {
 .logo__circle {
   position: absolute;
   top: 48%;
-  left: 0 ;
+  left: 0;
   transform: translateY(-56%);
   width: 28px;
   height: 28px;
@@ -94,7 +94,7 @@ body {
   background: #0056ec;
   opacity: 0;
   transition: opacity 0.5s, width 0.5s;
-} 
+}
 
 .menu__item:hover {
   opacity: 0.5;
