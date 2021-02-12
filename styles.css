@@ -59,16 +59,15 @@ body {
   display: none;
 }
 
- @keyframes goodmove {
+@keyframes goodmove {
   from {
     color: green;
-    font-size: 87%; 
+    font-size: 87%;
   }
-  
+
   100% {
-     color: green;
+    color: green;
     font-size: 153%;
-    
   }
 }
 
@@ -94,10 +93,6 @@ body {
   background: #0056ec;
   opacity: 0;
   transition: opacity 0.5s, width 0.5s;
-}
-
-.menu__item:hover {
-  opacity: 0.5;
 }
 
 .menu__item:hover {
@@ -451,7 +446,7 @@ body {
 
   .menu__item1 {
     display: block;
-    padding: 31px 189px;
+    padding: 31px 49px;
     color: #333;
     font-family: 'robotomedium', arial, helvetica, sans-serif;
     font-size: 33px;
@@ -698,6 +693,7 @@ body {
     visibility: visible;
     left: 2px;
   }
+  
   .logo {
     padding: 22px 0 0 0;
     margin-left: 6px;
