@@ -471,7 +471,6 @@ body {
     background: #0056ec;
   }
 
-
   #menu__toggle:checked ~ .menu__btn > span {
     transform: rotate(45deg);
   }
@@ -681,19 +680,18 @@ body {
 
   .menu__item1:hover::after {
     opacity: 1;
-    left: 32%;
+    left: 31%;
     transform: rotate(0deg);
     width: 37%;
     height: 4px;
     bottom: auto;
-    left: 31%;
   }
 
   #menu__toggle:checked ~ .menu__box {
     visibility: visible;
     left: 2px;
   }
-  
+
   .logo {
     padding: 22px 0 0 0;
     margin-left: 6px;
